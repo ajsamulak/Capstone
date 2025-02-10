@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from 'assets/Logo.svg';
+import logo from '/Users/asamulak/Desktop/Capstone/src/assets/Logo.svg';
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
