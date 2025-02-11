@@ -1,8 +1,8 @@
 import React from "react";
 import recipes from "../recipes";
+import delivery from  '../assets/basket .svg'
 
-
-const Menu = () => {
+const Specials = () => {
 
   return (
     <div className="menu-container">
@@ -20,7 +20,10 @@ const Menu = () => {
                 <p>${recipe.price}</p>
               </div>
               <p>{recipe.description}</p>
-              <button className="orderbtn">Order Now</button>
+              <div className="delivery heading">
+              <h5>Order a delivery</h5> 
+              <p><img src={delivery} alt='basket add icon'/></p>
+            </div>
             </div>
           </div>
         ))}
@@ -29,4 +32,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default Specials;
