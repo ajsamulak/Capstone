@@ -1,9 +1,10 @@
 //import logo from './logo.svg';
 import './App.css';
-import Nav from './components/nav.js'
-import Header from './components/header.js'
-import Main from './components/main.js'
-import Footer from './components/footer.js'
+import Nav from './components/Nav.js'
+import Header from './components/Header.js'
+import Main from './components/Main.js'
+import Menu from './components/Menu.js'
+import Footer from './components/Footer.js'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Nav/>
     <Header/>
     <Main/>
+    <Menu/>
     <Footer/>
     </>
   );

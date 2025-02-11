@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const BookingForm = (props) => {
     const [date, setDate] = useState("");
@@ -54,3 +54,5 @@ const BookingForm = (props) => {
         </header>
     );
 };
+
+export default BookingForm;
