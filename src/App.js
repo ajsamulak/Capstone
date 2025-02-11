@@ -1,19 +1,19 @@
-//import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Nav from './components/Nav.js'
-import Header from './components/Header.js'
-import Main from './components/Main.js'
-import Menu from './components/Menu.js'
-import Footer from './components/Footer.js'
+import Nav from "./components/Nav"
+import Main from "./components/Main"
+import Menu from './components/Menu';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
+ 
     <>
-    <Nav/>
-    <Header/>
-    <Main/>
-    <Menu/>
-    <Footer/>
+      <Nav/>
+      <Main />
+      <Menu/>
+      <Footer/>
     </>
   );
 }
