@@ -140,3 +140,19 @@ input, label {
 .confirm span{
   color: blue;
 }
+
+.menu-container {
+  margin: 110px auto;
+  padding: 10px 13%;
+}
+
+.menu-container h2{
+  color: black;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
