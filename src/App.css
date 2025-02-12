@@ -217,6 +217,11 @@ input, label{
   font-weight: 600;
 }
 
+button:hover {
+  color: #F4CE14;
+  background-color: black;
+}
+
 .delivery {
   display: relative;
 }
@@ -244,14 +249,23 @@ input, label{
 .reviews {
   background-color: #495E57;
   color: white;
+  width: 200px;
   justify-content: space-between;
-  padding: 50px;
+  padding: 20px 50px;
   margin-left: auto;
   margin-top: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
 }
 
 .reviews img {
   width: 80px;
+}
+
+.reviews h5 {
+  font-size: 16px;
+  margin: 10px;
 }
 
 /* About Section */
@@ -317,7 +331,7 @@ footer section{
 }
 
 footer h3{
-  font-size: 18px;
+  font-size: 14px;
 }
 
 footer ul{
