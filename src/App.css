@@ -228,6 +228,31 @@ input, label{
 .delivery img {
   height: 30px;
 }
+/* Testimonials */
+
+.reviews-container {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews-header h2 {
+ text-align: center;
+ color: #333333;
+}
+
+.reviews {
+  background-color: #495E57;
+  color: white;
+  justify-content: space-between;
+  padding: 50px;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.reviews img {
+  width: 80px;
+}
 
 /* About Section */
 .about {
