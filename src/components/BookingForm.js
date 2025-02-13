@@ -8,9 +8,9 @@ const BookingForm = (props) => {
    const [occasion, setOccasion] = useState("");
    const [guests, setGuests] = useState("");
    const [date, setDate] = useState("");
-   const [times, setTimes] = useState("")
+   const [times, setTimes] = useState("");
 
-   const handleSumbit = (e) => {
+   const handleSubmit = (e) => {
    e.preventDefault();
    props.submitForm(e);
    };
@@ -23,7 +23,7 @@ const BookingForm = (props) => {
   return (
     <header>
       <section>
-        <form onSubmit={handleSumbit}>
+        <form onSubmit={handleSubmit}>
           <fieldset className="formField">
             <div>
               <label htmlFor="book-date">Choose Date:</label>
@@ -47,6 +47,7 @@ const BookingForm = (props) => {
                 <option>Birthday</option>
                 <option>Anniversary</option>
                 <option>Engagement</option>
+                <option>None</option>
               </select>
             </div>
             <div className="btnReceive">
